@@ -1,13 +1,33 @@
+/*注意字体文件的位置，相对于css文件*/
+@font-face{
+	font-family: shaonv;
+	src: url(../font/hksn.ttf);
+}
 h1{
 	color: #00F;
+	text-decoration: underline;
+}
+li a{
+	text-transform: capitalize;
 }
 h2{
-	font-size: 14px;
+	font: bold 14px shaonv;
+	text-indent: 1.5em;
 }
 p{
 	font-size: 12px;
+	font-family: shaonv;
+	font-weight: 700;
 	color: #FF0;
 	background-color: #000;
+	/*text-align，水平对齐，justify只能用在连续文本，有br失效*/
+	text-align: center; 
+	/*word-spacing, 字间隔，象形文字不能应用*/
+	word-spacing: 2em;
+	/*white-space, pre、pre-wrap、pre-line都换行，nowrap强制不换行*/
+	white-space: pre-wrap;
+	/*lin-height, 缩放因子相对于元素的字体大小*/
+	line-height: 2em;
 }
 img{
 	border: red 2px solid;

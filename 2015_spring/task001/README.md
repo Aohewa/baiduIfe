@@ -37,3 +37,23 @@
 
 ### 3、稍微放松一下
 了解HTML及CSS的发展史，了解HTML4到HTML5究竟变化了什么
+
+### 4、CSS基础
+深入了解CSS的各种选择器、继承、层叠、样式优先级机制
+
+### 5、让页面丰富起来
+在task001.html中，快速实践以下文本相关的所有属性内容：
+
++ text-indent
++ text-transform
++ text-decoration
++ text-align
++ word-spacing
++ white-space
++ color
++ line-height
++ font
++ font-family
++ font-size
++ font-weight
++ font-face
