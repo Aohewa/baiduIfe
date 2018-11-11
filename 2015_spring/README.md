@@ -1,4 +1,4 @@
-#HTML、CSS基础
+HTML、CSS基础
 
 任务编号：task001
 
