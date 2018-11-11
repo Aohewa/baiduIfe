@@ -20,4 +20,5 @@
 + 一个图片（不能违法、反动、色情等）。
 
 最后的效果如下图：
+
 ![task001_1](https://github.com/baidu-ife/ife/blob/master/2015_spring/task/task0001/img/task0001_1.jpg)
