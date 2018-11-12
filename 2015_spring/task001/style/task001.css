@@ -1,3 +1,7 @@
+*{
+	padding: 0;
+	margin: 0;
+}
 /*注意字体文件的位置，相对于css文件*/
 @font-face{
 	font-family: shaonv;
@@ -31,4 +35,37 @@ p{
 }
 img{
 	border: red 2px solid;
+}
+/*第一种居中，margin:auto;*/
+.center_1{
+	background-color: #F00;
+	width: 960px;
+	margin: 0 auto 10px;
+}
+.container_2{
+	position: relative;
+}
+/*绝对定位脱离了文档流*/
+.center_2{
+	width: 960px;
+	background-color: #F00;
+	position: relative;
+	left: 50%;
+	margin-left: -480px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.container_3{
+	position: relative;
+}
+.center_3{
+	background-color: red;
+	position: relative;
+	max-width: 960px;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: right;
 }

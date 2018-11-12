@@ -62,6 +62,8 @@
 在task0001.html中，实践以下内容：
 
 + 用两种方法来实现一个背景色为红色、宽度为960px的<DIV>在浏览器中居中
+	三种方法，第三种更好，见task001.css
+	![三种居中的方法](https://github.com/Aohewa/baiduIfe/blob/master/2015_spring/task001/img/%E4%B8%89%E7%A7%8D%E5%B1%85%E4%B8%AD%E7%9A%84%E5%8C%BA%E5%88%AB%EF%BC%8C%E7%AC%AC%E4%B8%89%E7%A7%8D%E6%9B%B4%E5%A5%BD.png?raw=true)
 + 有的圆角矩形是复杂图案，无法直接用border-radius，请在不使用border-radius的情况下实现一个可复用的高度和宽度都自适应的圆角矩形
 ![圆角矩形](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0001/img/task0001_7.png)
 + 用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 

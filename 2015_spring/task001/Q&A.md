@@ -58,3 +58,6 @@ inline box 最初取决于 font-size
 行高可以增加 inline box 的高度  
 上下标（垂直对齐）也会增加 inline box 的高度  
 替换元素（如图像）也会影响 inline box 的高度  
+
+### Q:绝对定位元素的max-height，没有效果
+父元素的宽度是由里面的子元素撑开的，而绝对定位的子元素由于脱离了父元素文本结构，所以撑不开父元素,导致max-height效果不好
