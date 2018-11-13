@@ -69,13 +69,14 @@ img{
 	margin: 0 auto 10px;
 	text-align: right;
 }
-.circle{
+.circle_1{
 	width: 300px;
+	margin: 10px auto;
 }
 /*一个div包含多个小div,从上到下*/
 .c1{
 	margin: 0 5px;
-	border-top: solid 1px black;
+	border-top: solid 1px black; 
 }
 .c2{
 	margin: 0 3px;
@@ -98,4 +99,36 @@ img{
 .content{
 	border-left: solid 1px black;
 	border-right: solid 1px black;
+}
+
+.circle_2{
+	width: 150px;
+	margin: 10px auto;
+}
+.c2_1{
+	margin: 0 5px;
+	border-top: solid 1px black;
+}
+.c2_2{
+	margin: 0 3px;
+	border-left: solid 2px black;
+	border-right: solid 2px black;
+	height: 1px;
+}
+.c2_3{
+	margin: 0 2px;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	height: 1px
+}
+.c2_4{
+	margin: 0 1px;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	height: 2px;
+}
+.c2_content{
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	height: 100px;
 }
