@@ -36,6 +36,8 @@ p{
 img{
 	border: red 2px solid;
 }
+
+/*浏览器居中*/
 /*第一种居中，margin:auto;*/
 .center_1{
 	background-color: #F00;
@@ -69,6 +71,8 @@ img{
 	margin: 0 auto 10px;
 	text-align: right;
 }
+
+/*圆角矩形*/
 .circle_1{
 	width: 300px;
 	margin: 10px auto;
@@ -131,4 +135,153 @@ img{
 	border-left: solid 1px black;
 	border-right: solid 1px black;
 	height: 100px;
+}
+
+/*两列布局，左边固定，右边自适应*/
+.diva{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+.divb{
+	height: 100px;
+	background-color: blue;
+}
+.divc{
+	background-color: yellow;
+	height: 100px;
+	margin-bottom: 10px;
+}
+/*第一种，浮动布局 百分比宽度*/
+.left1{
+	float: left;
+}
+.right1{
+	width: 100%;
+}
+.div-c1{
+	clear: left;
+}
+/*第二种，浮动布局，外边距*/
+.left2{
+	float: left;
+}
+.right2{
+	margin-left: 100px; /*左边栏宽度*/
+}
+.div-c2{
+	clear: left;
+}
+/*第三种，定位布局，外边距*/
+.left-right3{
+	position: relative;
+}
+.left3{
+	position: absolute;
+	left: 0;
+}
+.right3{
+	margin-left: 100px;
+}
+/*第四种，flex布局，*/
+.left-right4{
+	display: flex;
+	display: -webkit-flex;
+}
+.right4{
+	flex: 1;
+	-webkit-flex: 1;
+}
+/*第五种，table布局*/
+.left-right5{
+	display: table;
+	width: 100%;
+}
+.left5{
+	display: table-cell;
+}
+.right5{
+	display: table-cell;
+}
+
+/*三列布局*/
+/*第一种，绝对定位，自动宽度, 非第一行注意定位位置*/
+.col-3{
+	background-color: red;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.col{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	margin: 10px;
+}
+.col-left{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.col-center{
+	margin: 10px 220px;
+	width: auto;
+}
+.col-right{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.col-left2, .col-right2{
+	top: 210px;
+}
+.col-left3, .col-right3{
+	top: 420px;
+}
+/*第二种，浮动，浮动元素外边距不叠加*/
+.col-3-2{
+	width: 100%;
+	background-color: red;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.col-2{
+	width: 200px;
+	height: 200px;
+	background-color: blue;
+	margin: 10px;
+}
+.col-left-2{
+	float: left;
+}
+.col-right-2{
+	float: right;
+}
+.col-center-2{
+	width: auto;
+	margin: 10px 220px;
+}
+.col-margin{
+	margin-top: 0;
+}
+
+/*数量改变*/
+.change-num{
+	background-color: red;
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+.num-div{
+	background-color: blue;
+	width: 200px;
+	height: 100px;
+	margin: 10px;
+}
+.num1{
+	float: left;
+}
+.num2{
+	display: inline-block;
 }

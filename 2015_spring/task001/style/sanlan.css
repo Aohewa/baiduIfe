@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header, footer{
+	background-color: #E7E7E7;
+	text-align: center;
+	height: 100px;
+}
+footer{
+	clear: left;
+	margin-bottom: 10px;
+}
+.middle{
+	background-color: #B5EECE;
+	height: 100px;
+	width: 100%;
+	float: left;
+}
+.left{
+	background-color: #85C9F5;
+	height: 100px;
+	width: 200px;
+	float: left;
+	/*浮动元素向上移动一行*/
+	margin-left: -100%;
+
+}
+.right{
+	background-color: #F69ECA;
+	height: 100px;
+	width: 200px;
+	float: left;
+	/*浮动元素向上移动一行*/
+	margin-left: -200px;
+}
+
+/*圣杯布局*/
+.left-grail{
+	/*偏移到父元素的内边距*/
+	position: relative;
+	left: -200px;
+}
+.right-grail{
+	/*偏移到父元素的内边距*/
+	position: relative;
+	right: -200px;
+}
+/*父元素设置内边距，留出偏移空间*/
+.grail-container{
+	padding: 0 200px;
+}
+
+/*双飞翼布局*/
+.middle-dfly{
+	margin:0 200px;
+	height: 100px;
+}

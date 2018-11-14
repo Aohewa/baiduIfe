@@ -72,7 +72,11 @@
 
 + 用两种不同的方法来实现一个两列布局，其中左侧部分宽度固定、右侧部分宽度随浏览器宽度的变化而自适应变化 
 ![两列布局](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0001/img/task0001_3.jpg)
+	思路：1、浮动布局，百分比宽度；2、浮动布局，外边距；3、定位，外边距；4、flex布局；5、table布局
+	
 + 用两种不同的方式来实现一个三列布局，其中左侧和右侧的部分宽度固定，中间部分宽度随浏览器宽度的变化而自适应变化
 ![三列布局](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0001/img/task0001_4.jpg)
+	思路：1、绝对定位，脱离文档流；2、浮动两边，最后放center
+
 + 实现一个浮动布局，红色容器中每一行的蓝色容器数量随着浏览器宽度的变化而变化 
 ![浮动布局](https://github.com/baidu-ife/ife/raw/master/2015_spring/task/task0001/img/task0001_5.jpg)
